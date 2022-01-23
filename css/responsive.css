@@ -1,7 +1,27 @@
 /* // X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap */
+* @media (min-width: 640px) {}
+        
+@media (min-width: 768px) {}
+        
+@media (min-width: 1024px) {}
+        
+@media (min-width: 1280px) {}
+        
+@media (min-width: 1536px) {} */
 
-@media (min-width: 374px) {
+
+/*/ No media query for `xs` since this is the default in Bootstrap */
+
+@media (max-width: 768px) {
+    .title {
+        text-align: center;
+    }
+    .banner-content {
+        text-align: center;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
     .brand {
         margin-left: 30%;
         margin-top: 12px;
@@ -20,9 +40,6 @@
     #slider {
         padding-top: 8rem;
     }
-    .banner-content {
-        text-align: center;
-    }
     .md\:mb-0 {
         margin-bottom: 5px!important;
     }
@@ -31,20 +48,7 @@
     .cat-blue {
         margin-bottom: 5px;
     }
-    .title {
-        text-align: center;
-    }
     .product {
         margin-bottom: 10px!important;
     }
 }
-
-@media (min-width: 640px) {}
-
-@media (min-width: 768px) {}
-
-@media (min-width: 1024px) {}
-
-@media (min-width: 1280px) {}
-
-@media (min-width: 1536px) {}
