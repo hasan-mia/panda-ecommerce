@@ -5,7 +5,7 @@
 * Mobile: +880-161-782323
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
 }
 
@@ -52,19 +52,21 @@ li {
 /* Nabar */
 
 #navbar {
-    position: relative;
+    position: fixed;
+    z-index: 99;
 }
 
 nav {
-    border-bottom: #c7c7c7;
+    box-shadow: 1px 2px 3px #ebe0e0;
 }
 
 #search {
     background: #F1F1F1;
     width: 25rem;
-    padding: 8px;
+    padding: 8px 20px;
     border-radius: 40px;
     position: relative;
+    color: #000
 }
 
 [type=search] {
@@ -74,8 +76,8 @@ nav {
 
 .search-btn {
     position: absolute;
-    right: 45%;
-    top: 2rem;
+    right: 46%;
+    top: 1rem;
 }
 
 .fa-search {
@@ -85,7 +87,12 @@ nav {
 
 /* Banner Slider */
 
-.mySwiper {
+#slider {
+    padding-top: 5rem;
+}
+
+.mySwiper,
+.bg-soft-pink {
     background: #FEEAE9;
 }
 
@@ -109,6 +116,7 @@ nav {
 
 .title a {
     color: #FF9D00;
+    font-size: 20px;
 }
 
 .cat-yellow {
@@ -132,5 +140,34 @@ nav {
 
 .product {
     background: #fff;
-    padding: 2rem;
+    padding: 1rem;
+}
+
+
+/* Subscribe */
+
+form.subscribe input {
+    padding: 8px 20px;
+    margin-top: 10px;
+    width: 38%;
+    border-radius: 4px;
+}
+
+.subscribe button {
+    background-image: linear-gradient(45deg, #FF589B, #FF589B);
+    font-size: 16px;
+    padding: 8px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    left: -5px;
+    border-radius: 4px;
+}
+
+
+/* footer */
+
+#footer {
+    background: #fff8f8;
 }
