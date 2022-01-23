@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Panda | TailWind 3.0.15</title>
+        <link rel="icon" href="img/icon.png" sizes="50x50">
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+        <!-- fontawesome 5.10 -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <!-- swipper Style -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+        <!-- main Style -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- responsive  -->
+        <link rel="stylesheet" href="css/responsive.css">
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            clifford: '#da373d',
+                            redpink: '#FF3182'
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <!--========================
+    |       Header Part        |
+    =========================-->
+        <header id="navbar">
+            <div class="container-lg md:pl-28 md:pr-28">
+                <nav class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-gray-700 bg-white ">
+                    <!-- Brand -->
+                    <span class="brand"><a href="#"> <img src="img/logo.png" alt="logo"> </a></span>
+                    <!-- toogle bars -->
+                    <a id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block"> <i class="fas fa-bars"></i> </a>
+                    <div class="search md:block hidden">
+                        <form action="#" method="post">
+                            <input type="search" name="search" id="search" placeholder="Search..">
+                            <button class="search-btn"> <i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <!-- search button -->
+                    <!-- main menu -->
+                    <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+                        <ul class=" pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0">
+                            <li>
+                                <a class="md:p-4 py-2 block hover:text-purple-400" href="#">Home</a>
+                            </li>
+                            <li>
+                                <a class="md:p-4 py-2 block hover:text-purple-400" href="#">Product</a>
+                            </li>
+                            <li>
+                                <a class="md:p-4 py-2 block hover:text-purple-400" href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a class="md:p-4 py-2 block hover:text-purple-400" href="#">Contact Us</a>
+                            </li>
+                            <!-- <li>
+                                <a class="md:p-4 py-2 block hover:text-purple-400 text-purple-500" href="#">
+                                    <div class="fa fa-user"></div>
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+        </header>
+        <!-- end header -->
+
+        <main>
+            <!--=======================
+            |       Slider Part        |
+            =========================-->
+            <section id="slider">
+                <div class="container-lg md:pl-28 md:pr-28 md:py-8">
+                    <div class="swiper mySwiper md:py-10 rounded-2xl">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="banner md:grid md:grid-cols-2 md:gap-2 md:inline-flex grid grid-cols-1 content-center">
+                                    <div class="banner-content md:p-10 p-5">
+                                        <h1 class="text-5xl font-extrabold">Mi LED TV 4A PRO 32</h1>
+                                        <p class="py-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                        <p class="text-3xl text-color-pink font-bold py-3">$1289</p>
+                                        <a href="#" class="p-1 text-xl font-extrabold btn-pink rounded-lg text-white"> Buy Now <i class="fa fa-arrow-right"></i></a>
+                                    </div>
+                                    <div class="gap-2">
+                                        <img class="object-cover w-screen h-80" src="img/banner-images/headphone.png" alt="apple watch photo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 1 -->
+                            <div class="swiper-slide">
+                                <div class="banner md:grid md:grid-cols-2 md:gap-2 md:inline-flex grid grid-cols-1">
+                                    <div class="banner-content md:p-10 p-5">
+                                        <h1 class="text-5xl font-extrabold">Mi LED TV 4A PRO 32</h1>
+                                        <p class="py-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                        <p class="text-3xl text-color-pink font-bold py-3">$1289</p>
+                                        <a href="#" class="p-1 text-xl font-extrabold btn-pink rounded-lg text-white"> Buy Now <i class="fa fa-arrow-right"></i></a>
+                                    </div>
+                                    <div class="gap-2">
+                                        <img class="object-cover w-screen h-80" src="img/banner-images/tv.png" alt="apple watch photo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="swiper-slide">
+                                <div class="banner md:grid md:grid-cols-2 md:gap-2 md:inline-flex grid grid-cols-1">
+                                    <div class="banner-content md:p-10 p-5">
+                                        <h1 class="text-5xl font-extrabold">Mi LED TV 4A PRO 32</h1>
+                                        <p class="py-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                        <p class="text-3xl text-color-pink font-bold py-3">$1289</p>
+                                        <a href="#" class="p-1 text-xl font-extrabold btn-pink rounded-lg text-white"> Buy Now <i class="fa fa-arrow-right"></i></a>
+                                    </div>
+                                    <div class="gap-2">
+                                        <img class="object-cover w-screen h-80" src="img/banner-images/xbox.png" alt="apple watch photo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 3 -->
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- end slider section -->
+
+            <!--=======================
+            |       Categories Part    |
+            =========================-->
+            <section id="categories">
+                <div class="container-lg md:pl-28 md:pr-28 pb-5">
+                    <div class="title">
+                        <h1 class="text-4xl font-extrabold pb-4">Categories</h1>
+                    </div>
+                    <div class="grid md:grid-cols-3 grid-cols-1 content-center">
+                        <div class="cat-yellow flex justify-evenly items-center rounded-2xl md:mx-2 md:mb-0 mb-5">
+                            <div class="cat-content">
+                                <h3 class="text-3xl text-white font-extrabold ">Watch</h3>
+                            </div>
+                            <div class="cat-icon">
+                                <img src="img/categories/watch.png " alt=" ">
+                            </div>
+                        </div>
+                        <div class="cat-pink flex justify-evenly items-center rounded-2xl md:mx-2 md:mb-0 mb-5">
+                            <div class="cat-content">
+                                <h3 class="text-3xl text-white font-extrabold ">Bag</h3>
+                            </div>
+                            <div class="cat-icon">
+                                <img src="img/categories/bag.png " alt=" ">
+                            </div>
+                        </div>
+                        <div class="cat-blue flex justify-evenly items-center rounded-2xl md:mx-2 md:mb-0 mb-5">
+                            <div class="cat-content">
+                                <h3 class="text-3xl text-white font-extrabold ">Shoes</h3>
+                            </div>
+                            <div class="cat-icon">
+                                <img src="img/categories/shoes.png " alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end categoires section -->
+
+            <!--=======================
+            |       Product Part    |
+            =========================-->
+            <section id="products" class="py-5">
+
+                <div class="container-lg md:pl-28 md:pr-28 pb-5">
+                    <div class="title">
+                        <h1 class="text-4xl font-extrabold pb-4">Shoes See All</h1>
+                    </div>
+                    <div class="grid md:grid-cols-3 grid-cols-1">
+                        <div class="product rounded-2xl md:mx-2 md:mb-0 mb-5">
+                            <div class="card-images">
+                                <img src="img/shoes/shoe-1.png" alt=" ">
+                            </div>
+                            <div class="card-content text-center">
+                                <h2 class="text-2xl font-extrabold">Reebok Dart Men’s Shoes</h2>
+                                <p class="text-md py-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                                <p class="text-black text-3xl py-3">$1289</p>
+                                <a href="#" class="btn bg-black text-white rounded-lg">Buy Now <i class="fas fa-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                        <!-- product -->
+                        <div class="product rounded-2xl md:mx-2 md:mb-0 mb-5">
+                            <div class="card-images">
+                                <img src="img/shoes/shoe-2.png" alt=" ">
+                            </div>
+                            <div class="card-content text-center">
+                                <h2 class="text-2xl font-extrabold">Reebok Dart Men’s Shoes</h2>
+                                <p class="text-md py-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                                <p class="text-black text-3xl py-3">$1289</p>
+                                <a href="#" class="btn bg-black text-white rounded-lg">Buy Now <i class="fas fa-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                        <!-- product -->
+                        <div class="product rounded-2xl md:mx-2 md:mb-0 mb-5">
+                            <div class="card-images">
+                                <img src="img/shoes/shoe-3.png " alt=" ">
+                            </div>
+                            <div class="card-content text-center">
+                                <h2 class="text-2xl font-extrabold">Reebok Dart Men’s Shoes</h2>
+                                <p class="text-md py-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                                <p class="text-black text-3xl py-3">$1289</p>
+                                <a href="#" class="btn bg-black text-white rounded-lg">Buy Now <i class="fas fa-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                        <!-- product -->
+
+                    </div>
+                </div>
+                <!-- nd product banner -->
+                <div class="container-lg md:pl-28 md:pr-28 pb-5">
+                    <div class="title">
+                        <h1 class="text-4xl font-extrabold pb-4">Shoes See All</h1>
+                    </div>
+                    <div class="grid md:grid-cols-3 grid-cols-1">
+                        <div class="product rounded-2xl md:mx-2 md:mb-0 mb-5">
+                            <div class="card-images">
+                                <img src="img/shoes/shoe-1.png" alt=" ">
+                            </div>
+                            <div class="card-content text-center">
+                                <h2 class="text-2xl font-extrabold">Reebok Dart Men’s Shoes</h2>
+                                <p class="text-md py-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                                <p class="text-black text-3xl py-3">$1289</p>
+                                <a href="#" class="btn bg-black text-white rounded-lg">Buy Now <i class="fas fa-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                        <!-- product -->
+                        <div class="product rounded-2xl md:mx-2 md:mb-0 mb-5">
+                            <div class="card-images">
+                                <img src="img/shoes/shoe-2.png" alt=" ">
+                            </div>
+                            <div class="card-content text-center">
+                                <h2 class="text-2xl font-extrabold">Reebok Dart Men’s Shoes</h2>
+                                <p class="text-md py-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                                <p class="text-black text-3xl py-3">$1289</p>
+                                <a href="#" class="btn bg-black text-white rounded-lg">Buy Now <i class="fas fa-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                        <!-- product -->
+                        <div class="product rounded-2xl md:mx-2 md:mb-0 mb-5">
+                            <div class="card-images">
+                                <img src="img/shoes/shoe-3.png " alt=" ">
+                            </div>
+                            <div class="card-content text-center">
+                                <h2 class="text-2xl font-extrabold">Reebok Dart Men’s Shoes</h2>
+                                <p class="text-md py-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                                <p class="text-black text-3xl py-3">$1289</p>
+                                <a href="#" class="btn bg-black text-white rounded-lg">Buy Now <i class="fas fa-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                        <!-- product -->
+
+                    </div>
+                </div>
+                <!-- nd product banner -->
+
+            </section>
+            <!-- end categoires section -->
+
+        </main>
+        <!-- end main -->
+
+        <!--========================
+    |       Footer Part        |
+    =========================-->
+        <footer>
+
+        </footer>
+        <!-- end footer -->
+
+        <!--========================
+    |      All Javascript      |
+    =========================-->
+        <!-- tailwind 3.0.15 -->
+        <script src="js/tailwind.min.js "></script>
+        <!-- <script src="js/jquery-3.6.0.min.js "></script> -->
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js "></script>
+        <script src="js/custom.js "></script>
+    </body>
+
+</html>

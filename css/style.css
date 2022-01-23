@@ -1,0 +1,128 @@
+/* 
+* Author: Hasan
+* Github: https://github.com/hasanrafi69
+* Email: hasanrafi69@gmail.com
+* Mobile: +880-161-782323
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c7c7c7;
+}
+
+li {
+    list-style: none;
+}
+
+.text-color-pink {
+    color: #FF3182;
+}
+
+.btn {
+    background: transparent;
+    padding: 7px;
+    border: 1px solid rgb(75, 67, 67)y;
+}
+
+.btn-pink {
+    background-color: #FF3182;
+}
+
+
+/* Nabar */
+
+#navbar {
+    position: relative;
+}
+
+nav {
+    border-bottom: #c7c7c7;
+}
+
+#search {
+    background: #F1F1F1;
+    width: 25rem;
+    padding: 8px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.search-btn {
+    position: absolute;
+    right: 45%;
+    top: 1rem;
+}
+
+.fa-search {
+    color: #BABABA;
+}
+
+
+/* Banner Slider */
+
+.mySwiper {
+    background: #FEEAE9;
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination {
+    color: #ffc4da;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    background: #ffc4da;
+    position: relative;
+    bottom: -2.5rem;
+}
+
+
+/* Category */
+
+.cat-yellow {
+    background: #FFB02A;
+}
+
+.cat-pink {
+    background: #FF287C;
+}
+
+.cat-blue {
+    background: #403DFB;
+}
+
+
+/* Products */
+
+#products {
+    background-color: #F4F4F4;
+}
+
+.product {
+    background: #fff;
+    padding: 2rem;
+}
