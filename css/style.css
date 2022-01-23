@@ -35,18 +35,17 @@ li {
     list-style: none;
 }
 
+.btn {
+    background: transparent;
+    padding: 10px 20px;
+}
+
 .text-color-pink {
     color: #FF3182;
 }
 
-.btn {
-    background: transparent;
-    padding: 7px;
-    border: 1px solid rgb(75, 67, 67)y;
-}
-
 .btn-pink {
-    background-color: #FF3182;
+    background: #FF3182;
 }
 
 
