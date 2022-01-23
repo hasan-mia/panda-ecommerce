@@ -67,10 +67,15 @@ nav {
     position: relative;
 }
 
+[type=search] {
+    font-size: 14px;
+    left: -10px;
+}
+
 .search-btn {
     position: absolute;
     right: 45%;
-    top: 1rem;
+    top: 2rem;
 }
 
 .fa-search {
@@ -101,6 +106,10 @@ nav {
 
 
 /* Category */
+
+.title a {
+    color: #FF9D00;
+}
 
 .cat-yellow {
     background: #FFB02A;
